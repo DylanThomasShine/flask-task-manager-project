@@ -5,7 +5,11 @@
 
 $(document).ready(function () {
     $(".sidenav").sidenav({edge: "right"});
+<<<<<<< HEAD
     $(".collapsible").collapsible();
+=======
+    $('.collapsible').collapsible();
+>>>>>>> 0f9b7c7fa5a54b9017cf925bca9995fbfe624031
 });
 
 
