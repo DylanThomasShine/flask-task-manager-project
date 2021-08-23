@@ -1,15 +1,12 @@
-  
+
 /*
     jQuery for MaterializeCSS initialization
 */
 
 $(document).ready(function () {
     $(".sidenav").sidenav({edge: "right"});
-<<<<<<< HEAD
     $(".collapsible").collapsible();
-=======
-    $('.collapsible').collapsible();
->>>>>>> 0f9b7c7fa5a54b9017cf925bca9995fbfe624031
+    $(".tooltipped").tooltip();
 });
 
 
@@ -25,4 +22,6 @@ $(document).ready(function () {
 //     let sidenavsInstance = M.Sidenav.init(sidenavs, {edge: "right"});
 //     let collapsibles = document.querySelectorAll(".collapsible");
 //     let collapsiblesInstance = M.Collapsible.init(collapsibles);
+//     let tooltips = document.querySelectorAll(".tooltipped");
+//     let tooltipsInstance = M.Tooltip.init(tooltips);
 // });
